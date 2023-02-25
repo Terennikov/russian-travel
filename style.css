@@ -1,0 +1,55 @@
+.header {
+  position: relative;
+  width: 1184px;
+  height: 52px;
+  left: 48px;
+  top: 28px;
+  background-color: #2A2C2F;
+}
+
+.__logo {
+  position: absolute;
+  width: 288px;
+  height: 42px;
+  left: 48px;
+  top: 28px;
+}
+
+
+
+.__lang-link {
+  position: absolute;
+  width: 30px;
+  height: 28px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-right: 18px;
+}
+
+.lead {
+  background-color: #2A2C2F;
+}
+
+.lead__title {
+  color: #FFFFFF;
+}
+
+.lead__subtitle {
+  color: #FFFFFF;
+}
+
+.intro {
+  background-color: #2A2C2F;
+}
+
+.intro__title {
+
+}
+
+.photo-grid {
+  display: grid;
+}
