@@ -1,24 +1,29 @@
-.header {
-  position: relative;
-  width: 1184px;
-  height: 52px;
-  left: 48px;
-  top: 28px;
+.page {
   background-color: #2A2C2F;
 }
 
-.__logo {
-  position: absolute;
-  width: 288px;
-  height: 42px;
-  left: 48px;
-  top: 28px;
+.header {
+  position: relative;
+  min-width: 1184px;
+  height: 52px;
+  padding: 28 48 74;
 }
 
-
-
-.__lang-link {
+.header__logo {
   position: absolute;
+  width: 176px;
+  height: 52px;
+  margin-top: 28px;
+  margin-left: 48px;
+}
+
+.header__links {
+  position: absolute;
+  top: 46px;
+  right: 48px;
+}
+
+.header__lang-link {
   width: 30px;
   height: 28px;
   font-family: 'Inter';
@@ -27,23 +32,48 @@
   font-size: 24px;
   line-height: 28px;
   color: #FFFFFF;
-  margin-right: 18px;
 }
 
 .lead {
-  background-color: #2A2C2F;
+  padding-top: 74px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 984px
 }
 
 .lead__title {
   color: #FFFFFF;
+  height: 200px;
+  width: 720px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .lead__subtitle {
   color: #FFFFFF;
+  margin: 0 auto;
+  height: 72px;
+  width: 640px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.lead__image {
+  width: 100%;
+  height: 615px;
 }
 
 .intro {
-  background-color: #2A2C2F;
+
 }
 
 .intro__title {
