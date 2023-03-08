@@ -1,0 +1,9 @@
+.place__paragraphs {
+  grid-area: place__paragraphs;
+  margin: 0;
+  font-size: 18px;
+  line-height: 163%;
+  font-weight: 400;
+  margin-bottom: 27px;
+  color: #FFFFFF;
+}
