@@ -5,9 +5,8 @@
   font-weight: 900;
   width: 460px;
   margin: 0;
-  display:table-cell;
   vertical-align: bottom;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 @media screen and (max-width: 1024px)  {

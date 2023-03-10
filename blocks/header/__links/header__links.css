@@ -1,7 +1,8 @@
 .header__links {
-  position: absolute;
-  right: 0;
+  display: flex;
+  position: relative;
   margin-top: 20px;
+  margin-left: auto;
 }
 
 @media screen and (max-width: 320px) {

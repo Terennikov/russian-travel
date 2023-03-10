@@ -3,33 +3,24 @@
   font-size: 72px;
   line-height: 106%;
   font-weight: 900;
-  position: absolute;
   z-index: 20;
-  width: 560px;
-  top: 33%;
-  left: 50%;
-  transform: translate(-50%);
+  max-width: 560px;
   margin: 0;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover__title {
-      top: 30.32%;
-  }
-}
-
-@media screen and (max-width: 780px) {
-  .cover__title {
-      top: 23.5%;
-  }
+  margin-bottom: 32px;
 }
 
 
 @media screen and (max-width: 580px) {
   .cover__title {
-      width: 255px;
+      max-width: 255px;
       font-size: 32px;
       line-height: 109%;
-      top: 33px;
+     
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    margin-bottom: 16px;   
   }
 }

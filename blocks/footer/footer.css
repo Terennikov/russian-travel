@@ -1,9 +1,8 @@
 .footer {
   display: flex;
   position: relative;
-  height: 18px;
   max-width: 100%;
-  padding-top: 72px;
+  padding-top: 92px;
   padding-bottom: 24px;
   margin-right: 48px;
   margin-left: 48px;
@@ -27,8 +26,6 @@
   .footer {
     flex-wrap: wrap;
     padding-top: 64px;
-    padding-bottom: 24px;
     margin-left: 16px;
-    height: 310px;
   }
 }
