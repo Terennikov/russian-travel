@@ -2,8 +2,22 @@
   grid-area: place__paragraphs;
   margin: 0;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 29.34px;
   font-weight: 400;
-  margin-bottom: 27px;
-  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraphs {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
+
+@media screen and (max-width: 388px) {
+  .place__paragraphs {
+      max-width: 90%;
+      margin: 0 auto;
+  }
 }

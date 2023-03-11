@@ -29,5 +29,6 @@
     font-size: 32px;
     line-height: 35px;
     margin-top: 64px;
+    max-width: 78%;
   }
 }

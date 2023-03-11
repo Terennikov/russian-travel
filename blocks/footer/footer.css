@@ -18,13 +18,12 @@
 
 @media screen and (max-width: 500px) {
   .footer {
-    padding-bottom: 74px;
+    flex-wrap: wrap;
   }
 }
 
 @media screen and (max-width: 360px) {
   .footer {
-    flex-wrap: wrap;
     padding-top: 64px;
     margin-left: 16px;
   }

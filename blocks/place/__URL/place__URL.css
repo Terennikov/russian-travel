@@ -1,5 +1,5 @@
-.place__URL {
-  grid-area: place__URL;
+.place__url {
+  grid-area: place__url;
   font-size: 12px;
   line-height: 100%;
   font-weight: 400;
@@ -10,8 +10,14 @@
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 768px) {
+  .place__url {
+      margin-top: 0;
+  }
+}
+
 @media screen and (max-width: 360px) {
-  .place__URL {
-      margin: 0;
+  .place__url {
+      margin-bottom: 12px;
   }
 }

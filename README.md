@@ -4,4 +4,4 @@
 
 Технологии, которые используются: HTML CSS
 
-Ссылка на проект: git@github.com:Terennikov/russian-travel.git
+Ссылка на проект: https://terennikov.github.io/russian-travel/

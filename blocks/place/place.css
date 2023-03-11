@@ -28,11 +28,12 @@
 @media screen and (max-width: 770px) {
   .place {
       grid-template-columns: 340px 1fr;
-      grid-template-rows: 92px minmax(50px, auto);
+      grid-template-rows: minmax(46px, auto) minmax(50px, auto);
       grid-gap: 48px 28px;
+      margin: 73px 0 0 0;
   }
   .place:last-child {
-      margin-bottom: 88px;
+      margin-bottom: 63px;
   }
 }
 
@@ -51,6 +52,11 @@
   .place {
       margin-bottom: 50px;
   }
+
+  .place:first-child {
+    margin-bottom: 50px;
+  }
+
   .place:last-child {
       margin-bottom: 66px;
   }
