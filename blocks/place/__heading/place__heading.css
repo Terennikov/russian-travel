@@ -1,5 +1,5 @@
-.place__url {
-    grid-area: place__url;
+.place__heading {
+    grid-area: place__heading;
     font-size: 12px;
     line-height: 100%;
     font-weight: 400;
@@ -12,13 +12,13 @@
   }
   
   @media screen and (max-width: 768px) {
-    .place__url {
+    .place__heading {
         margin-top: 0;
     }
   }
   
   @media screen and (max-width: 360px) {
-    .place__url {
+    .place__heading {
         margin-bottom: 12px;
     }
   }
